@@ -1,0 +1,37 @@
+/* UI/src/composants/Styles/ListePossessions.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .create-link, .edit-link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .create-link:hover, .edit-link:hover {
+    text-decoration: underline;
+  }
+  

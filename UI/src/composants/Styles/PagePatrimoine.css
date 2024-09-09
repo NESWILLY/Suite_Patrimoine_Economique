@@ -1,0 +1,30 @@
+/* UI/src/composants/Styles/PagePatrimoine.css */
+.page-patrimoine {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  

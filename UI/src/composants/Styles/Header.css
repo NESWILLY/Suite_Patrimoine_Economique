@@ -1,0 +1,31 @@
+/* UI/src/composants/Styles/Header.css */
+header {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+    color: #007bff; /* Couleur du lien actif */
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
